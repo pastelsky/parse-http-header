@@ -4,7 +4,7 @@
 - Normalizes casing
 - Documented and tested
 
-### Authentication Headers
+## Authentication Headers
 
 #### WWW-Authenticate: `<Object>`
 - **type**: `<string>`
@@ -19,11 +19,10 @@
 - **type**: `<string>`
 - **realm**: `<string> | null`
 
-### Caching Headers
-
+## Caching Headers
 #### Age: `<number>`
 
-#### Cache-Control: `<Object>`
+### Cache-Control: `<Object>`
 - **directives**: `[<string>]`
 - **values**: `<Object> | {}`
   - maxAge: `<number>`
