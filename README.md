@@ -6,11 +6,32 @@
 
 ### Authentication Headers
 
-#### WWW-Authenticate
+#### WWW-Authenticate: `<Object>`
 - **type**: `<string>`
 - **charset**: `<string> | null`
 - **realm**: `<string> | null`
 
-#### Authorization
+#### Authorization / Proxy-Authorization: `<Object>`
 - **type**: `<string>`
 - **credentials**: `<string>`
+
+#### Proxy-Authenticate: `<Object>`
+- **type**: `<string>`
+- **realm**: `<string> | null`
+
+### Caching Headers
+
+#### Age: `<number>`
+
+#### Cache-Control: `<Object>`
+- **directives**: `[<string>]`
+- **values**: `<Object> | {}`
+  - maxAge: `<number>`
+  
+#### Expires: `<Date>`
+#### Pragma: `<string>`
+#### Warning: `<Object>`
+ - **agent**: <string>,
+ - **code**: <number>,
+ - **date**: <Date> | null,
+ - **text**: <string>
