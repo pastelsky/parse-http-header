@@ -91,13 +91,13 @@
   - secure: `boolean`
   
 ## Cors Headers
-  - Access-Control-Allow-Origin: `string`
-  - Access-Control-Allow-Credentials: `boolean`
-  - Access-Control-Allow-Headers: `[string]`
-  - Access-Control-Allow-Methods: `[string]`
-  - Access-Control-Expose-Headers: `[string]`
-  - Access-Control-Request-Headers: `[string]`
-  - Access-Control-Request-Method: `string`
-  - Origin: `string`
-  - Timing-Allow-Origin: `[string]`
+#### Access-Control-Allow-Origin: `string`
+#### Access-Control-Allow-Credentials: `boolean`
+#### Access-Control-Allow-Headers: `[string]`
+#### Access-Control-Allow-Methods: `[string]`
+#### Access-Control-Expose-Headers: `[string]`
+#### Access-Control-Request-Headers: `[string]`
+#### Access-Control-Request-Method: `string`
+#### Origin: `string`
+#### Timing-Allow-Origin: `[string]`
   
