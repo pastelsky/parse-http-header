@@ -76,3 +76,28 @@
 ## Control Headers
 #### Expect: `string`
 #### Max-Forwards: `number`
+
+## Cookie Headers
+#### Cookie: `[Object]`
+  - name: `string`
+  - value: `string`
+#### Set-Cookie: `[Object]`
+  - name: `string`
+  - value: `string`
+  - domain: `string`
+  - path: `string`
+  - expires: `date`
+  - maxAge: `number`
+  - secure: `boolean`
+  
+## Cors Headers
+  - Access-Control-Allow-Origin: `string`
+  - Access-Control-Allow-Credentials: `boolean`
+  - Access-Control-Allow-Headers: `[string]`
+  - Access-Control-Allow-Methods: `[string]`
+  - Access-Control-Expose-Headers: `[string]`
+  - Access-Control-Request-Headers: `[string]`
+  - Access-Control-Request-Method: `string`
+  - Origin: `string`
+  - Timing-Allow-Origin: `[string]`
+  
