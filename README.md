@@ -70,7 +70,8 @@
   - qualityFactor: `number`
 #### Accept-Language: `[Object]`
   - name: `string`
-  - qualityFactor: `number`#### Accept-Encoding: `[Object]`
+  - qualityFactor: `number`
+#### Accept-Encoding: `[Object]`
   
 ## Control Headers
 #### Expect: `string`
