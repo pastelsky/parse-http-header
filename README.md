@@ -90,7 +90,7 @@
   - maxAge: `number`
   - secure: `boolean`
   
-## Cors Headers
+## CORS Headers
 #### Access-Control-Allow-Origin: `string`
 #### Access-Control-Allow-Credentials: `boolean`
 #### Access-Control-Allow-Headers: `[string]`
@@ -100,4 +100,12 @@
 #### Access-Control-Request-Method: `string`
 #### Origin: `string`
 #### Timing-Allow-Origin: `[string]`
+
+## Do Not Track Headers
+#### DNT: `boolean`
+#### Tk: `Object`
+  - status: `string`
+  - value: `string`
+
+## Download Headers
   
